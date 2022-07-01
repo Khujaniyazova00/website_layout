@@ -1,0 +1,63 @@
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+html {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.header,
+.footer {
+  padding: 2rem;
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+
+.float {
+  height: 580px;
+}
+
+.child {
+  /* background-color: skyblue; */
+  color: white;
+  height: 100%;
+  width: 20%;
+  padding: 0 1rem;
+}
+
+.child ul li {
+  list-style-type: none;
+  background-color: skyblue;
+  margin: 1rem 0;
+  padding: 0.63rem;
+  font-size: 1.25rem;
+}
+
+.inner {
+  padding: 2rem 0px 2rem 10rem;
+  height: 100%;
+}
+
+.child {
+  float: left;
+}
+
+.inner h2 {
+  margin-bottom: 1.25rem;
+}
+
+.footer {
+  padding: 1.25rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
